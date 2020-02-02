@@ -1,4 +1,4 @@
-local owner_name = "gollark" -- Default username, can be reset by owner
+local owner_name = "NotNite" -- Default username, can be reset by owner
 local drone_name = "QT-8"
 local status = drone.setStatusText
 
@@ -13,7 +13,7 @@ if key_exists "owner" then
   owner_name = read_key "owner"
 end
 
-local command_prefix = drone_name .. ","
+local command_prefix = ","
 
 local function split(inputstr, sep)
   local parts = {}
